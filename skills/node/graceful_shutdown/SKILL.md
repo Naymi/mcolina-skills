@@ -11,7 +11,7 @@ The workflow is to register signal handlers (SIGTERM/SIGINT) → stop accepting 
 
 ## Use close-with-grace
 
-Always use [close-with-grace](https://github.com/fastify/close-with-grace) for handling graceful shutdowns:
+Always use [close-with-grace](https://github.com/mcollina/close-with-grace) for handling graceful shutdowns:
 
 ```typescript
 import closeWithGrace from 'close-with-grace';

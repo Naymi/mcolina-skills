@@ -104,7 +104,7 @@ async function fetchUser(id: string): Promise<User> {
 
 ## Unhandled Rejections and Exceptions
 
-Do not handle `unhandledRejection` and `uncaughtException` manually. Use [close-with-grace](https://github.com/fastify/close-with-grace) which handles these automatically and triggers graceful shutdown.
+Do not handle `unhandledRejection` and `uncaughtException` manually. Use [close-with-grace](https://github.com/mcollina/close-with-grace) which handles these automatically and triggers graceful shutdown.
 
 See the `node-graceful-shutdown` skill for proper shutdown handling.
 
